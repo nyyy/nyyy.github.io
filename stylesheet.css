@@ -1,0 +1,53 @@
+html,
+
+body {
+  margin: 0;
+}
+
+nav {
+  background: #ddd;
+}
+
+nav ul {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 0 20px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: #ccc;
+}
+
+nav.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header {
+  position: relative;
+}
+
+.banner {
+  height: 300px;
+  background: #990000;
+}
+
+.body {
+  height: 1000px;
+  width: 80%;
+  margin: 0 auto;
+}
